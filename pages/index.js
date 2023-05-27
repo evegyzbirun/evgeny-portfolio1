@@ -41,9 +41,18 @@ export default function Home() {
           </div>
 
           <div className="text-5xl flex justify-center gap-16 py-4 text-gray-600">
+
+            
             <AiFillTwitterCircle />
+
+            <a href="https://www.linkedin.com/in/evgenyzbirun/">
             <AiFillLinkedin />
+            </a>
+
+            <a href="https://github.com/evegyzbirun">
             <AiFillGithub />
+            </a>
+            
           </div>
 
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
@@ -54,7 +63,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1">Experience</h3>
-            <h2 className="text-2xl py-2"><spam className="text-teal-500">Opine</spam></h2>
+            <h2 className="text-2xl py-2"><spam className="text-teal-500"><a href="https://opineschool.com/">Opine</a></spam> (part-time React Web Developer)</h2>
             <p className="text-md py-2 leading-8 text-gray-80">Added pictures as answers: The application built on REACT, worked on uploading each image as answers for each question card, one image got the correct value, other incorrect.</p>
             <p className="text-md py-2 leading-8">CSV converter: Import and export option for teachers able to make study sets from river competitors and import to the website or export any of the sets.</p>
             <p className="text-md py-2 leading-8">Firebase rules: Different access to unauthorized users, students, and teachers on the website. Keep it organized.</p>
