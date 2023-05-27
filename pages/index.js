@@ -28,7 +28,7 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-600 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
+                <a className="bg-gradient-to-r from-cyan-600 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://docs.google.com/document/d/1m0I98IGToiJLwxMTN2J4hd_vi-5-6TQcAc0RaAfgN7c/edit?usp=sharing">Resume</a>
               </li>
             </ul>
           </nav>
@@ -81,7 +81,7 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={icon2} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-9 pb-2">Projects:</h3>
+              <h3 className="text-lg font-medium pt-9 pb-2">Projects</h3>
               <p className="text-gray-800 py-1"><a href="https://github.com/evegyzbirun/custom-store">Custom-Store</a></p>
               <p className="text-gray-800 py-1"><a href="https://github.com/evegyzbirun/anagram">Anagrams-and-Antigrams</a></p>
               <p className="text-gray-800 py-1"><a href="https://github.com/evegyzbirun/AgeCalc">Age-Calculator</a></p>
@@ -89,11 +89,13 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={icon1} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-9 pb-2">Languages I use</h3>
-              <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">REACT</p>
-              <p className="text-gray-800 py-1">HTML</p>
-              <p className="text-gray-800 py-1">CSS</p>
+              <h3 className="text-lg font-medium pt-9 pb-2">Education</h3>
+              <h2 className="text-md py-1 leading-8"> Epicodus: Certificate in Web and Mobile Development, Ruby/React track (May 2022 - April 2023)</h2>
+              <p className="text-gray-800 py-1">Used git and github for development</p>
+              <p className="text-gray-800 py-1">Learned tests (rspec) </p>
+              <p className="text-gray-800 py-1">Work with PostgreSQL, Firebase</p>
+              <p className="text-gray-800 py-1">Build over 20 projects with HTML, CSS, JavaScript, and Ruby on Rails.</p>
+              <p className="text-gray-800 py-1">Developed technical communication skills through pairing study, group projects and scrums</p>
             </div>
           </div>
         </section>
