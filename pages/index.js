@@ -4,6 +4,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/a
 import Image from "next/legacy/image";
 import deved from "../public/evgeny1.jpg";
 import icon1 from "../public/icon1.png";
+import icon2 from "../public/icon2.jpg";
 import { SemanticClassificationFormat } from "typescript";
 import { useState } from "react";
 
@@ -42,17 +43,17 @@ export default function Home() {
 
           <div className="text-5xl flex justify-center gap-16 py-4 text-gray-600">
 
-            
+
             <AiFillTwitterCircle />
 
             <a href="https://www.linkedin.com/in/evgenyzbirun/">
-            <AiFillLinkedin />
+              <AiFillLinkedin />
             </a>
 
             <a href="https://github.com/evegyzbirun">
-            <AiFillGithub />
+              <AiFillGithub />
             </a>
-            
+
           </div>
 
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
@@ -79,12 +80,11 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={icon1} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-9 pb-2">Languages I use</h3>
-              <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">REACT</p>
-              <p className="text-gray-800 py-1">HTML</p>
-              <p className="text-gray-800 py-1">CSS</p>
+              <Image src={icon2} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-9 pb-2">Projects:</h3>
+              <p className="text-gray-800 py-1"><a href="https://github.com/evegyzbirun/custom-store">Custom-Store</a></p>
+              <p className="text-gray-800 py-1"><a href="https://github.com/evegyzbirun/anagram">Anagrams-and-Antigrams</a></p>
+              <p className="text-gray-800 py-1"><a href="https://github.com/evegyzbirun/AgeCalc">Age-Calculator</a></p>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
