@@ -22,7 +22,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-45 dark:bg-gray-900">
         <section className=" bg-white-200 min-h-screen">
           <nav className="py-10 mb-14 flex justify-between">
-            <h1 className="text-xl font-burtons">developed</h1>
+            <h1 className="text-xl font-burtons  dark:text-white">developed</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
@@ -35,8 +35,8 @@ export default function Home() {
 
           <div className="text-center p-12">
             <h2 className="text-5xl py-2 text-teal-600 font-medium">Evgeny Zbirun</h2>
-            <h3 className="text-2xl py-2">Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+            <h3 className="text-2xl py-2  dark:text-white">Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800  dark:text-white">
               About me.
             </p>
           </div>
@@ -63,23 +63,14 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1">Experience</h3>
-            <h2 className="text-2xl py-2"><spam className="text-teal-500"><a href="https://opineschool.com/">Opine</a></spam> (part-time React Web Developer)</h2>
-            <p className="text-md py-2 leading-8 text-gray-80">Added pictures as answers: The application built on REACT, worked on uploading each image as answers for each question card, one image got the correct value, other incorrect.</p>
-            <p className="text-md py-2 leading-8">CSV converter: Import and export option for teachers able to make study sets from river competitors and import to the website or export any of the sets.</p>
-            <p className="text-md py-2 leading-8">Firebase rules: Different access to unauthorized users, students, and teachers on the website. Keep it organized.</p>
+            <h3 className="text-3xl py-1  dark:text-white">Experience</h3>
+            <h2 className="text-2xl py-2 dark:text-white" ><spam className="text-teal-500"><a href="https://opineschool.com/">Opine</a></spam> (part-time React Web Developer)</h2>
+            <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">Added pictures as answers: The application built on REACT, worked on uploading each image as answers for each question card, one image got the correct value, other incorrect.</p>
+            <p className="text-md py-2 leading-8 dark:text-white">CSV converter: Import and export option for teachers able to make study sets from river competitors and import to the website or export any of the sets.</p>
+            <p className="text-md py-2 leading-8 dark:text-white">Firebase rules: Different access to unauthorized users, students, and teachers on the website. Keep it organized.</p>
           </div>
           <div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={icon1} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-9 pb-2">Languages I use</h3>
-              <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">REACT</p>
-              <p className="text-gray-800 py-1">HTML</p>
-              <p className="text-gray-800 py-1">CSS</p>
-            </div>
-
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={icon2} width={100} height={100} />
               <h3 className="text-lg font-medium pt-9 pb-2">Projects</h3>
               <p className="text-gray-800 py-1"><a href="https://github.com/evegyzbirun/custom-store">Custom-Store</a></p>
@@ -97,14 +88,21 @@ export default function Home() {
               <p className="text-gray-800 py-1">Build over 20 projects with HTML, CSS, JavaScript, and Ruby on Rails.</p>
               <p className="text-gray-800 py-1">Developed technical communication skills through pairing study, group projects and scrums</p>
             </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+              <Image src={icon1} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-9 pb-2">Languages I use</h3>
+              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">REACT</p>
+              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">CSS</p>
+            </div>
+
+            
           </div>
         </section>
 
-        <section>
-          <div>
-            <h3 className="text-3xl py-1">Projects</h3>
-          </div>
-        </section>
+        
       </main>
     </div>
   );
